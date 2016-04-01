@@ -1,0 +1,18 @@
+<html>
+<body>
+<button onclick="test1()">click1</button><br/><br/>
+<button onclick="test2()">click2</button>
+<script>
+    function test1()
+    {
+        location.href="native://log?msg=12345&pwd=sx";
+    }
+var str;
+function test2()
+{
+    window.log(str);
+    window.texObj.text="zzz";
+}
+</script>
+</body>
+</html>
